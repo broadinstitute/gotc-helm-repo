@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/broadinstitute/gotc-helm-repo/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
@@ -35,3 +36,10 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+=======
+# gotc-helm-repo
+Repository to host packaged helm charts for gotc infrastructure.
+
+There is an index.yaml file available :
+https://broadinstitute.github.io/gotc-helm-repo/index.yaml
+>>>>>>> Stashed changes
