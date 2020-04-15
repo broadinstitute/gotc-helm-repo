@@ -3,9 +3,9 @@ entries:
   authproxy:
   - apiVersion: v2
     appVersion: broadinstitute/openidc-proxy:tcell
-    created: "2020-04-14T22:03:17.011716208Z"
+    created: "2020-04-15T16:28:21.43060958Z"
     description: A Helm chart to deploy an authproxy for Crowmell on Kubernetes
-    digest: 34fc5d51b01dc649cb0684aeac1f3bd78a213486f6eb4c221222a935fe55645c
+    digest: a0310ef36c33b40c4ee48a457598acb69ed429dcf9d77e0a22ffda4d91635359
     home: https://github.com/broadinstitute/gotc-deploy
     keywords:
     - google
@@ -17,6 +17,6 @@ entries:
     name: authproxy
     type: application
     urls:
-    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/authproxy-0.0.1/authproxy-0.0.1.tgz
-    version: 0.0.1
-generated: "2020-04-14T22:03:16.889746873Z"
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/authproxy-0.0.2/authproxy-0.0.2.tgz
+    version: 0.0.2
+generated: "2020-04-15T16:28:21.340988631Z"
