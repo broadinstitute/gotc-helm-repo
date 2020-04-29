@@ -19,4 +19,24 @@ entries:
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/authproxy-0.0.2/authproxy-0.0.2.tgz
     version: 0.0.2
+  wfl:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2020-04-29T13:56:58.963734744Z"
+    description: A Helm chart for deploy WorkFlow Launcher on Kubernetes
+    digest: 7f2849217dd87561185ed256ff0ea7c0ccaa3da113812cdf0f2d2eb3716649f1
+    home: https://github.com/broadinstitute/wfl
+    keywords:
+    - clojure
+    - cloud
+    - workflow launcher
+    - broadinstitute
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: wfl
+    type: application
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.1.1/wfl-0.1.1.tgz
+    version: 0.1.1
 generated: "2020-04-15T16:28:21.340988631Z"
