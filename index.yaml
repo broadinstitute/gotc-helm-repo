@@ -37,6 +37,25 @@ entries:
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/authproxy-0.0.2/authproxy-0.0.2.tgz
     version: 0.0.2
+  testChart:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2020-05-08T23:34:06.898379237Z"
+    description: A Helm chart to deploy an testChart for Crowmell on Kubernetes
+    digest: 6babcc7e6e6de41df434d3f12d982a703db2d3675566f151ad426c4df53ea662
+    home: https://github.com/broadinstitute/gotc-deploy
+    keywords:
+    - google
+    - cloud
+    - broadinstitute
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: testChart
+    type: application
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/testChart-0.0.3/testChart-0.0.3.tgz
+    version: 0.0.3
   wfl:
   - apiVersion: v2
     appVersion: 0.2.1
