@@ -40,6 +40,24 @@ entries:
   testChart:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2020-05-11T20:12:26.896480271Z"
+    description: A Helm chart to deploy an testChart for Crowmell on Kubernetes
+    digest: 874eaac14009053531c186b7fbb8dacd80dddaadee3d0e125b1a051c136010e2
+    home: https://github.com/broadinstitute/gotc-deploy
+    keywords:
+    - google
+    - cloud
+    - broadinstitute
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: testChart
+    type: application
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/testChart-0.0.5/testChart-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2020-05-08T23:34:06.898379237Z"
     description: A Helm chart to deploy an testChart for Crowmell on Kubernetes
     digest: 6babcc7e6e6de41df434d3f12d982a703db2d3675566f151ad426c4df53ea662
