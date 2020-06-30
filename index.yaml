@@ -37,6 +37,28 @@ entries:
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/authproxy-0.0.2/authproxy-0.0.2.tgz
     version: 0.0.2
+  cromwell:
+  - apiVersion: v2
+    appVersion: "47"
+    created: "2020-06-30T15:15:38.395436796Z"
+    description: A Helm chart which enables a user to deploy the Cromwell Application
+      on Kubernetes
+    digest: 77903f2a373c232ddeb5a9e2adc0ad5ee3d249fdedd3c5d2b261b1ec367dcaca
+    home: https://github.com/broadinstitute/gotc-deploy
+    icon: https://cromwell.readthedocs.io/en/stable/jamie_the_cromwell_pig.png
+    keywords:
+    - google
+    - cloud
+    - broadinstitute
+    - cromwell
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: cromwell
+    type: application
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/cromwell-0.0.1/cromwell-0.0.1.tgz
+    version: 0.0.1
   testChart:
   - apiVersion: v2
     appVersion: 0.0.1
