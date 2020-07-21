@@ -15,7 +15,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: authproxy
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/authproxy-0.0.3/authproxy-0.0.3.tgz
     version: 0.0.3
@@ -33,7 +32,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: authproxy
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/authproxy-0.0.2/authproxy-0.0.2.tgz
     version: 0.0.2
@@ -55,10 +53,19 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: cromwell
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/cromwell-0.0.1/cromwell-0.0.1.tgz
     version: 0.0.1
+  hjf-test-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-07-21T18:00:13.062423407Z"
+    description: A Helm chart for Kubernetes
+    digest: faa58223ca6c97d022ea6e84d0d72783435b9768d751898f09361f50951d9ad0
+    name: hjf-test-chart
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/hjf-test-chart-0.1.0/hjf-test-chart-0.1.0.tgz
+    version: 0.1.0
   testChart:
   - apiVersion: v2
     appVersion: 0.0.1
@@ -76,7 +83,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: testChart
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/testChart-0.0.6/testChart-0.0.6.tgz
     version: 0.0.6
@@ -94,7 +100,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: testChart
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/testChart-0.0.5/testChart-0.0.5.tgz
     version: 0.0.5
@@ -112,7 +117,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: testChart
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/testChart-0.0.3/testChart-0.0.3.tgz
     version: 0.0.3
@@ -132,7 +136,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.2.7/wfl-0.2.7.tgz
     version: 0.2.7
@@ -151,7 +154,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.2.6/wfl-0.2.6.tgz
     version: 0.2.6
@@ -170,7 +172,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.2.5/wfl-0.2.5.tgz
     version: 0.2.5
@@ -189,7 +190,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.2.4/wfl-0.2.4.tgz
     version: 0.2.4
@@ -208,7 +208,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.2.3/wfl-0.2.3.tgz
     version: 0.2.3
@@ -227,7 +226,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.2.2/wfl-0.2.2.tgz
     version: 0.2.2
@@ -246,7 +244,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.2.1/wfl-0.2.1.tgz
     version: 0.2.1
@@ -265,7 +262,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.2.0/wfl-0.2.0.tgz
     version: 0.2.0
@@ -284,7 +280,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.1.1/wfl-0.1.1.tgz
     version: 0.1.1
