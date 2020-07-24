@@ -2,6 +2,23 @@ apiVersion: v1
 entries:
   authproxy:
   - apiVersion: v2
+    appVersion: NA
+    created: "2020-07-24T19:52:41.491199486Z"
+    description: A Helm chart to deploy an authproxy for Crowmell on Kubernetes
+    digest: e5e1ab2e6533363dde13a443e0fdc699cbc45553ecc4a2923cb13992f585bbb5
+    home: https://github.com/broadinstitute/gotc-deploy
+    keywords:
+    - google
+    - cloud
+    - broadinstitute
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: authproxy
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/authproxy-0.1.1/authproxy-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.0.3
     created: "2020-05-01T19:48:37.45870867Z"
     description: A Helm chart to deploy an authproxy for Crowmell on Kubernetes
@@ -36,6 +53,26 @@ entries:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/authproxy-0.0.2/authproxy-0.0.2.tgz
     version: 0.0.2
   cromwell:
+  - apiVersion: v2
+    appVersion: NA
+    created: "2020-07-24T19:52:41.579512335Z"
+    description: A Helm chart which enables a user to deploy the Cromwell Application
+      on Kubernetes
+    digest: b8983153367a0412fc9f83b7fe3db099a972961a73d8b80f1acdb7bebdaf4f70
+    home: https://github.com/broadinstitute/gotc-deploy
+    icon: https://cromwell.readthedocs.io/en/stable/jamie_the_cromwell_pig.png
+    keywords:
+    - google
+    - cloud
+    - broadinstitute
+    - cromwell
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: cromwell
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/cromwell-0.1.2/cromwell-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     appVersion: "47"
     created: "2020-06-30T15:15:38.395436796Z"
@@ -79,6 +116,24 @@ entries:
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/hjf-test-chart-0.1.0/hjf-test-chart-0.1.0.tgz
     version: 0.1.0
+  job-manager:
+  - apiVersion: v2
+    appVersion: v1.5.6
+    created: "2020-07-24T19:52:41.695361507Z"
+    description: A Helm chart for Job Manager https://github.com/DataBiosphere/job-manager
+    digest: dead94d8d9ee0bb752f72e51f4a89f1cb3632b5f541e27f239d8f8bd1a1c9a8c
+    home: https://github.com/broadinstitute/gotc-deploy
+    keywords:
+    - job-manager
+    - broadinstitute
+    - cromwell
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: job-manager
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/job-manager-0.0.1/job-manager-0.0.1.tgz
+    version: 0.0.1
   testChart:
   - apiVersion: v2
     appVersion: 0.0.1
