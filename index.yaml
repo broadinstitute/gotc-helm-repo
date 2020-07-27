@@ -52,6 +52,25 @@ entries:
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/authproxy-0.0.2/authproxy-0.0.2.tgz
     version: 0.0.2
+  clio:
+  - apiVersion: v2
+    appVersion: NA
+    created: "2020-07-27T14:09:39.583073932Z"
+    description: A Helm chart to deploy Clio on Kubernetes
+    digest: e2054b22737451a197fc0535e88522e7e9fcfcab306c9cfead8df8ffbef71d0e
+    home: https://github.com/broadinstitute/gotc-deploy
+    keywords:
+    - google
+    - cloud
+    - broadinstitute
+    - clio
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: clio
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/clio-0.1.1/clio-0.1.1.tgz
+    version: 0.1.1
   cromwell:
   - apiVersion: v2
     appVersion: NA
