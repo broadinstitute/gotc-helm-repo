@@ -93,6 +93,26 @@ entries:
   cromwell:
   - apiVersion: v2
     appVersion: NA
+    created: "2020-08-12T14:58:32.815579574Z"
+    description: A Helm chart which enables a user to deploy the Cromwell Application
+      on Kubernetes
+    digest: a8e33fbb256f8488bfe20251d75e38ad662d76b03444b5d91f282246d542128d
+    home: https://github.com/broadinstitute/gotc-deploy
+    icon: https://cromwell.readthedocs.io/en/stable/jamie_the_cromwell_pig.png
+    keywords:
+    - google
+    - cloud
+    - broadinstitute
+    - cromwell
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: cromwell
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/cromwell-0.1.5/cromwell-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: NA
     created: "2020-07-31T20:20:52.932088842Z"
     description: A Helm chart which enables a user to deploy the Cromwell Application
       on Kubernetes
