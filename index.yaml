@@ -217,6 +217,23 @@ entries:
   job-manager:
   - apiVersion: v2
     appVersion: v1.5.6
+    created: "2020-08-21T01:36:10.08000306Z"
+    description: A Helm chart for Job Manager https://github.com/DataBiosphere/job-manager
+    digest: 4c6f5045e4bc0be7b0aa42b8df294f9e46b71e5b03a33effb141037a2c1c1b0e
+    home: https://github.com/broadinstitute/gotc-deploy
+    keywords:
+    - job-manager
+    - broadinstitute
+    - cromwell
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: job-manager
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/job-manager-0.0.2/job-manager-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: v1.5.6
     created: "2020-07-24T19:52:41.695361507Z"
     description: A Helm chart for Job Manager https://github.com/DataBiosphere/job-manager
     digest: dead94d8d9ee0bb752f72e51f4a89f1cb3632b5f541e27f239d8f8bd1a1c9a8c
