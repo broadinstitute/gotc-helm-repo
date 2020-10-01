@@ -306,6 +306,25 @@ entries:
   wfl:
   - apiVersion: v2
     appVersion: 0.1.10
+    created: "2020-10-01T19:01:58.922103251Z"
+    description: A Helm chart for deploy WorkFlow Launcher on Kubernetes
+    digest: 7e245e2453125a753ee9374054e688716999322eac5105b0763104355b7c2ca2
+    home: https://github.com/broadinstitute/wfl
+    keywords:
+    - clojure
+    - cloud
+    - workflow launcher
+    - broadinstitute
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: wfl
+    type: application
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.2.9/wfl-0.2.9.tgz
+    version: 0.2.9
+  - apiVersion: v2
+    appVersion: 0.1.10
     created: "2020-09-09T13:51:37.611558946Z"
     description: A Helm chart for deploy WorkFlow Launcher on Kubernetes
     digest: da7dab8230baa39b2d32b9f8f53f7a33ecaafc598ea2a5b9d32cd5e827af13a8
