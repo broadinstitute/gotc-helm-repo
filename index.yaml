@@ -231,6 +231,28 @@ entries:
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/cromwell-0.0.1/cromwell-0.0.1.tgz
     version: 0.0.1
+  graphite:
+  - apiVersion: v1
+    appVersion: 1.1.7-6
+    created: "2021-01-28T17:23:27.600144814Z"
+    description: Graphite metrics server
+    digest: e44559ada87433646deb01d631f9dde182f00d1e38b6e905df6e0bd0eef900a2
+    home: https://graphiteapp.org/
+    icon: https://graphiteapp.org/img/graphite-logo_color.png
+    keywords:
+    - metrics
+    maintainers:
+    - email: fabian.schlegel@kiwigrid.com
+      name: fabian-schlegel
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    name: graphite
+    sources:
+    - https://github.com/graphite-project
+    - https://github.com/graphite-project/docker-graphite-statsd
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/graphite-0.7.2/graphite-0.7.2.tgz
+    version: 0.7.2
   hjf-test-chart:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -359,7 +381,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.3.3/wfl-0.3.3.tgz
     version: 0.3.3
@@ -378,7 +399,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.3.2/wfl-0.3.2.tgz
     version: 0.3.2
@@ -397,7 +417,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.2.10/wfl-0.2.10.tgz
     version: 0.2.10
