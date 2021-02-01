@@ -253,6 +253,27 @@ entries:
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/graphite-0.7.2/graphite-0.7.2.tgz
     version: 0.7.2
+  - apiVersion: v1
+    appVersion: 1.1.7-6
+    created: "2021-02-01T20:48:12.630147071Z"
+    description: Graphite metrics server
+    digest: 7c6e09a586de6ef6ca9f2153a13b0a19dde9e1379af7021f9a712dff30c2a7ef
+    home: https://graphiteapp.org/
+    icon: https://graphiteapp.org/img/graphite-logo_color.png
+    keywords:
+    - metrics
+    maintainers:
+    - email: fabian.schlegel@kiwigrid.com
+      name: fabian-schlegel
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    name: graphite
+    sources:
+    - https://github.com/graphite-project
+    - https://github.com/graphite-project/docker-graphite-statsd
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/graphite-0.7.2-broad-1/graphite-0.7.2-broad-1.tgz
+    version: 0.7.2-broad-1
   hjf-test-chart:
   - apiVersion: v2
     appVersion: 1.16.0
