@@ -231,6 +231,22 @@ entries:
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/cromwell-0.0.1/cromwell-0.0.1.tgz
     version: 0.0.1
+  google-quota-gather:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-03-01T23:05:56.498707657Z"
+    description: CronJob to query google projects to retreive current quota limit
+      and usage
+    digest: 1e1bbf1c1044520ffaec6790f2a4f9032b2fb53377ee01df26ed94689a8ec7cf
+    home: https://github.com/broadinstitute/gotc-deploy
+    icon: https://github.com/broadinstitute/gotc-deploy/helm/google-quota-gather/compute-engine-512-color.png
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: google-quota-gather
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/google-quota-gather-0.1.0/google-quota-gather-0.1.0.tgz
+    version: 0.1.0
   graphite:
   - apiVersion: v1
     appVersion: 1.1.7-6
@@ -423,7 +439,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.3.6/wfl-0.3.6.tgz
     version: 0.3.6
@@ -442,7 +457,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.3.5/wfl-0.3.5.tgz
     version: 0.3.5
@@ -461,7 +475,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.3.4/wfl-0.3.4.tgz
     version: 0.3.4
