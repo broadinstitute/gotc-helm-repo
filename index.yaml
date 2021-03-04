@@ -231,6 +231,21 @@ entries:
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/cromwell-0.0.1/cromwell-0.0.1.tgz
     version: 0.0.1
+  external-statsd:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-03-04T19:15:48.789135026Z"
+    description: Specialty statsd service that supports an IP access list
+    digest: b5bde4ce7c16b7f4a6a7611cfe402b4a3ad9957536385edf9e0cdebac6f00107
+    home: https://github.com/broadinstitute/gotc-deploy/helm/external-statsd
+    icon: https://graphiteapp.org/img/graphite-logo_color.png
+    maintainers:
+    - email: hornet@broadinstitute.org
+      name: hornet
+    name: external-statsd
+    urls:
+    - https://github.com/broadinstitute/gotc-helm-repo/releases/download/external-statsd-0.1.0/external-statsd-0.1.0.tgz
+    version: 0.1.0
   google-quota-gather:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -439,7 +454,6 @@ entries:
     - email: hornet@broadinstitute.org
       name: hornet
     name: wfl
-    type: application
     urls:
     - https://github.com/broadinstitute/gotc-helm-repo/releases/download/wfl-0.3.7/wfl-0.3.7.tgz
     version: 0.3.7
